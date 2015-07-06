@@ -145,10 +145,10 @@ asyncOperation = DRAsyncBlockOperation { (finish) -> Void in
 
         // Do your stuff ...
 
-    })
+        // When you're done, finish the operation
+        finish()
 
-    // When you're done, finish the operation
-    finish()
+    })
 }
 
 queue.addOperation(asyncOperation)
