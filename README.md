@@ -10,7 +10,7 @@ Implementation of a concurrent `NSOperation` to abstract and help the creation o
 
 Every iOS developer certainly agrees with this statement, a great part of our code is highly asynchronous and this brings a few challenges to us. Luckily, we have a few mechanisms to structure our business logic, `NSOperation` in combination with `NSOperationQueue` is one of them, it's powerful and flexible.
 
-However, despite all the flexibility, if you need to make an asynchronous call on a `NSOperation` you're doomed. Remember that a `NSOperation` will finish right after the `-main` method returns. So, you probably you'll end up using a semaphore or something similar to lock the operation while the async call is running otherwise it will finish before time. This doesn't feel right.
+However, despite all the flexibility, if you need to make an asynchronous call on a `NSOperation` you're doomed. Remember that a `NSOperation` will finish right after the `-main` method returns. So, you will probably end up using a semaphore or something similar to lock the operation while the async call is running otherwise it will finish before time. This doesn't feel right.
 
 Actually, you're not completely doomed, due the great flexibility offered by `NSOperation` you're able to create a concurrent operation where you can control exactly when the operation should be considered finished and with this finish the operation only after the async call have completed.
 
