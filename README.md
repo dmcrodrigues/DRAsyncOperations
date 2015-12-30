@@ -1,5 +1,7 @@
 # DRAsyncOperations
 
+[![iOS](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](#) [![Platform](https://img.shields.io/badge/Platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg?style=flat)](#)
+
 Implementation of a concurrent `NSOperation` to abstract and help the creation of asynchronous operations.
 
 ## Motivation
