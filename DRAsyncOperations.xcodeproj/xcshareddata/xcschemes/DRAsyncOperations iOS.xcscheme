@@ -16,39 +16,39 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D9C8F731B4B259200947482"
                BuildableName = "DRAsyncOperations.framework"
-               BlueprintName = "DRAsyncOperations-iOS"
+               BlueprintName = "DRAsyncOperations iOS"
                ReferencedContainer = "container:DRAsyncOperations.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D9C8F7E1B4B259200947482"
-               BuildableName = "DRAsyncOperations-iOSTests.xctest"
-               BlueprintName = "DRAsyncOperations-iOSTests"
+               BuildableName = "DRAsyncOperations iOSTests.xctest"
+               BlueprintName = "DRAsyncOperations iOSTests"
                ReferencedContainer = "container:DRAsyncOperations.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D9C8F7E1B4B259200947482"
-               BuildableName = "DRAsyncOperations-iOSTests.xctest"
-               BlueprintName = "DRAsyncOperations-iOSTests"
+               BuildableName = "DRAsyncOperations iOSTests.xctest"
+               BlueprintName = "DRAsyncOperations iOSTests"
                ReferencedContainer = "container:DRAsyncOperations.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -58,26 +58,29 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D9C8F731B4B259200947482"
             BuildableName = "DRAsyncOperations.framework"
-            BlueprintName = "DRAsyncOperations-iOS"
+            BlueprintName = "DRAsyncOperations iOS"
             ReferencedContainer = "container:DRAsyncOperations.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D9C8F731B4B259200947482"
             BuildableName = "DRAsyncOperations.framework"
-            BlueprintName = "DRAsyncOperations-iOS"
+            BlueprintName = "DRAsyncOperations iOS"
             ReferencedContainer = "container:DRAsyncOperations.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,17 +88,17 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D9C8F731B4B259200947482"
             BuildableName = "DRAsyncOperations.framework"
-            BlueprintName = "DRAsyncOperations-iOS"
+            BlueprintName = "DRAsyncOperations iOS"
             ReferencedContainer = "container:DRAsyncOperations.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
