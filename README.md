@@ -1,6 +1,8 @@
 # DRAsyncOperations
 
-[![iOS](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](#) [![Platform](https://img.shields.io/badge/Platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg?style=flat)](#)
+[![CocoaPods-Version](https://img.shields.io/cocoapods/v/DRAsyncOperations.svg)](#)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Platform](https://img.shields.io/badge/Platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg?style=flat)](#)
 
 Implementation of a concurrent `NSOperation` to abstract and help the creation of asynchronous operations.
 
@@ -19,6 +21,14 @@ Actually, you're not completely doomed, due the great flexibility offered by `NS
 Implement a concurrent operation it's not hard but there're a few things that you will need to implement in every operation of this kind. This is the main reason behind `DRAsyncOperation`, a class that implements the base functionality required to use concurrent operations and, consequently, use asynchronous code in `NSOperation`s.
 
 ## Installation
+
+### CocoaPods
+
+```pod 'DRAsyncOperations'```
+
+### Carthage
+
+```github "dmcrodrigues/DRAsyncOperations"```
 
 ### Manually
 
