@@ -263,6 +263,7 @@
 		7D9C8F6B1B4B259200947482 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "David Rodrigues";
 				TargetAttributes = {
@@ -638,6 +639,7 @@
 				7D9C8F8C1B4B259200947482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D9C8F8D1B4B259200947482 /* Build configuration list for PBXNativeTarget "DRAsyncOperations-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +648,7 @@
 				7D9C8F8F1B4B259200947482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D9C8FB71B4B277500947482 /* Build configuration list for PBXNativeTarget "DRAsyncOperations-Mac" */ = {
 			isa = XCConfigurationList;
@@ -654,6 +657,7 @@
 				7D9C8FB91B4B277500947482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D9C8FBA1B4B277500947482 /* Build configuration list for PBXNativeTarget "DRAsyncOperations-MacTests" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +666,7 @@
 				7D9C8FBC1B4B277500947482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
