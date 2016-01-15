@@ -1,8 +1,10 @@
 # DRAsyncOperations
 
-[![CocoaPods-Version](https://img.shields.io/cocoapods/v/DRAsyncOperations.svg)](#)
+[![Travis](https://travis-ci.org/dmcrodrigues/DRAsyncOperations.svg?style=flat)](https://travis-ci.org/dmcrodrigues/DRAsyncOperations)
+[![CocoaPods-Version](https://img.shields.io/cocoapods/v/DRAsyncOperations.svg?style=flat)](#)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/badge/Platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg?style=flat)](#)
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](#)
 
 Implementation of a concurrent `NSOperation` to abstract and help the creation of asynchronous operations.
 
