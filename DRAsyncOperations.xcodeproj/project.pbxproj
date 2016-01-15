@@ -169,6 +169,7 @@
 		7D9C8F761B4B259200947482 /* DRAsyncOperations */ = {
 			isa = PBXGroup;
 			children = (
+				7D9C8F791B4B259200947482 /* DRAsyncOperations.h */,
 				7D9C8F901B4B25AC00947482 /* DRAsyncOperation.h */,
 				7D9C8F911B4B25AC00947482 /* DRAsyncOperation.m */,
 				7D9C8F921B4B25AC00947482 /* DRAsyncOperationSubclass.h */,
@@ -182,7 +183,6 @@
 		7D9C8F771B4B259200947482 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D9C8F791B4B259200947482 /* DRAsyncOperations.h */,
 				7D9C8F781B4B259200947482 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -929,6 +929,7 @@
 				7D85D6D71C48377200548F21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D85D6D81C48377200548F21 /* Build configuration list for PBXNativeTarget "DRAsyncOperations tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -937,6 +938,7 @@
 				7D85D6DA1C48377200548F21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D85D6E51C48378900548F21 /* Build configuration list for PBXNativeTarget "DRAsyncOperations watchOS" */ = {
 			isa = XCConfigurationList;
@@ -945,6 +947,7 @@
 				7D85D6E71C48378900548F21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D9C8F6E1B4B259200947482 /* Build configuration list for PBXProject "DRAsyncOperations" */ = {
 			isa = XCConfigurationList;
