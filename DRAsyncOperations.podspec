@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'DRAsyncOperations'
-  spec.version          = '1.0'
+  spec.version          = '1.0.1'
   spec.license          = { :type => 'MIT' }
   spec.summary          = 'Implementation of a concurrent NSOperation to abstract and help the creation of asynchronous operations.'
   spec.homepage         = 'https://github.com/dmcrodrigues/DRAsyncOperations'
