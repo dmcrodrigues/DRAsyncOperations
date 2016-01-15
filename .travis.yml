@@ -2,16 +2,13 @@ language: objective-c
 osx_image: xcode7.2
 
 before_install:
-  - brew update
-  - brew install carthage
   - gem install cocoapods
   - gem install xcpretty
 
 script:
   - set -o pipefail
-  - carthage bootstrap
   - pod lib lint --allow-warnings
-  - xcodebuild test   -scheme "DRAsyncOperations Mac"                                                                                             | xcpretty
-  - xcodebuild test   -scheme "DRAsyncOperations iOS"     -sdk iphonesimulator  -destination "platform=iOS Simulator,name=iPhone 6s"              | xcpretty
-  - xcodebuild test   -scheme "DRAsyncOperations tvOS"    -sdk appletvsimulator -destination "platform=tvOS Simulator,name=Apple TV 1080p"        | xcpretty
-  - xcodebuild build  -scheme "DRAsyncOperations watchOS" -sdk watchsimulator   -destination "platform=watchOS Simulator,name=Apple Watch - 38mm" | xcpretty
+  - xcodebuild -scheme "DRAsyncOperations Mac" test | xcpretty
+  - xcodebuild -scheme "DRAsyncOperations iOS" -sdk iphonesimulator  -destination "platform=iOS Simulator,name=iPhone 6s" test | xcpretty
+  - xcodebuild -scheme "DRAsyncOperations tvOS" -sdk appletvsimulator -destination "platform=tvOS Simulator,name=Apple TV 1080p" test | xcpretty
+  - xcodebuild -scheme "DRAsyncOperations watchOS" -sdk watchsimulator   -destination "platform=watchOS Simulator,name=Apple Watch - 38mm" build | xcpretty
